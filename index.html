@@ -18,24 +18,47 @@
 
 <body>
 	<!-- nav bar -->
-	<nav class ="navbar navbar-default">
+	
+	<nav class ="navbar navbar-default navbar-fixed-top">
 		<div class = "container-fluid">
 			<div class= "navbar-header">
-				<a class="navbar-brand" href="#">Sophie Qin</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#main">insertPhoto</a>
 			</div>
-			<ul class="nav navbar-nav">
-				<li class = "active"><a href="#">Home</a></li>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#"></a>Contact Me</li>
-			</ul>
+			<div class= "collapse navbar-collapse" id= "myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class = "active"><a href="#about">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Experiences</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 		</div>
-
 	</nav>
 
 	<!-- welcome screen -->
 	<div class= "main">
-		<h1>Hi! I'm Sophie</h1>
-		<h1>and I'm a</h1>
+		<h1>Hi I'm Sophie!</h1>
+		<h1>and I'm a</h1> 
+	</div>
+
+	<!-- about me -->
+	<div class= "about">
+		<h1>About Me</h1>
+	</div>
+
+	<!-- experiences -->
+	<div class= "experiences">
+		<h1>Experiences</h1>
+	</div>
+
+	<!-- contact me -->
+	<div class= "contact"> 
+		<h1>Contact Me</h1>
 	</div>
 
 </body>

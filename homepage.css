@@ -1,3 +1,19 @@
 div.main {
+	margin-top: 300px;
 	text-align: center;
 }	
+
+div.about {
+	padding-top: 300px;
+	margin-left: 50px;
+}
+
+div.experiences {
+	padding-top: 300px;
+	margin-left: 50px;
+}
+
+div.contact {
+	padding-top: 300px;
+	margin-left: 50px;
+}
