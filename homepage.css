@@ -1,19 +1,30 @@
 div.main {
-	margin-top: 300px;
-	text-align: center;
+	position: relative;
+	/*font-family: 'Lato';*/
 }	
+
+h1 {
+	position: absolute;
+	text-align: center;
+}
 
 div.about {
 	padding-top: 300px;
 	margin-left: 50px;
+	/*font-family: 'Lato';*/
+
 }
 
 div.experiences {
 	padding-top: 300px;
 	margin-left: 50px;
+	/*font-family: 'Lato';*/
+
 }
 
 div.contact {
 	padding-top: 300px;
 	margin-left: 50px;
+	/*font-family: 'Lato';*/
+
 }
