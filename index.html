@@ -1,70 +1,50 @@
 <!DOCTYPE html>
 <html>
+<style>
+body, html {
+   /* allows for background image to cover the entire page */
+	height: 100%;
+	margin: 0%;
+}
+
+.bgimg {
+    background-image: url('/../images/beach.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+</style>
+
 <head>
-	<title>Sophie Qin</title>
-
-		<!-- mobile first styles -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="homepage.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-
+	<title>Coming Soon</title>
 </head>
 
 <body>
-	<!-- nav bar -->
-	<nav class ="navbar navbar-default navbar-fixed-top">
-		<div class = "container-fluid">
-			<div class= "navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#main">insertPhoto</a>
-			</div>
-			<div class= "collapse navbar-collapse" id= "myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class = "active"><a href="#about">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Experiences</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<!-- welcome screen -->
-	<div class= "main">
-		<img src="/Users/sophieqin/Desktop/just coding tings/Website/sophieq.github.io/images/lib.jpg" alt="">
-			<h1 id = "maintext">Hi, I'm Sophie! <br>and I'm a</h1>
+ <div class = "bgimg">
+	<div class = "text">
+		<h1>
+			COMING SOON
+		</h1>
+		<hr>
+		<p>
+			This page is currently in the works!
+			<br>
+			Please come back another time.
+		</p>
 	</div>
-
-	<!-- about me -->
-	<div class= "about">
-		<h2>About Me</h2>
-			<div>
-				<p>I'm a second year Computer Science student at the University of Waterloo with a passion for programming, design and empowering women. Ever since I was a little girl, my favourite activity was creating: art, buildings out of lego, even science projects like DIY your own plant cell. All these activities gave me the opportunity to hone my creativity and use it to build something that was my own. I realized that when I grew up, I wanted to use my creativity to build something that would truely make an impact on people's lives. Now I know that programming was the perfect choice...simple and elegent yet powerful enough to change people's lives.
-				</p>
-			</div>
-	</div>
-
-	<!-- experiences -->
-	<div class= "experiences">
-		<h2>Experiences</h2>
-		<p>Check out these awesome organizations I've been apart of:</p>
-	</div>
-
-	<!-- contact me -->
-	<div class= "contact"> 
-		<h2>Contact Me</h2>
-	</div>
-
+ </div>
 </body>
 </html>
