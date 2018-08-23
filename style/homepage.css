@@ -1,10 +1,11 @@
 div.main {
 	position: relative;
+	padding-top: 300px;
 	/*font-family: 'Lato';*/
 }	
 
 h1 {
-	position: absolute;
+	position: relative;
 	text-align: center;
 }
 
