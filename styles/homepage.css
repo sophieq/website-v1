@@ -87,19 +87,18 @@ body {
 .about-container {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .img-container {
-  position: relative;
-  display: inline;
-  flex-grow: 1;
+  flex: 1 0 0;
+
 }
 
 #about-img {
-  max-width: 50%;
+  width: 100%;
 }
 
 .about-text-container {
   flex-grow: 1;
+  flex: 1 0 0;
 }
