@@ -111,14 +111,14 @@ body {
 .about-text-container {
   flex-grow: 1;
   flex: 1 0 0;
-
+  color: black;
 }
 
 .center-container {
   width: 80%;
   margin: 0;
   position: relative;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -127,8 +127,7 @@ body {
   font-size: 40px;
   font-family: 'Niramit', sans-serif;
   font-weight: 100;
-  margin-top: 20px;
-
+  padding-bottom: 15px;
 }
 
 .slash {
@@ -141,9 +140,11 @@ body {
   font-weight: 900;
 }
 
-.about-description {
-  margin-top: 30px;
-  font-size: 20px;
+.about-text {
+  color: black;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .link-icons-container {
@@ -151,6 +152,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 40px;
 
 }
 
