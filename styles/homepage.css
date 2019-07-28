@@ -45,9 +45,9 @@ body {
 
 #intro-container {
   background-image: url("../images/intro.png");
-  background-size: Auto 130%;
+  background-size: Auto 140%;
     background-repeat: no-repeat;
-  background-position: 70% 90% !important;
+  background-position: 100% 90% !important;
 }
 
 .intro-background {
@@ -55,10 +55,10 @@ body {
 }
 
 .intro-text {
-  padding: 8% 7% 40% 50%;  
+  padding: 10% 7% 40% 50%;  
   color: white;
   text-align: center;
-  font-size: 28px;
+  font-size: 34px;
 
 }
 
@@ -111,6 +111,7 @@ body {
   flex-grow: 1;
   flex: 1 0 0;
   color: black;
+  margin-bottom: 50px;
 }
 
 .center-container {
