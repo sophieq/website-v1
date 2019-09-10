@@ -1,2 +1,2 @@
 # sophieq.github.io
-a work in progress
+My Website Portfolio - work in progress
