@@ -5,23 +5,32 @@ body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
   width:100%;
-  max-width: 700px;
-  margin: 100px auto;
+  max-width: 1000px;
+  margin: 200px auto 0 auto;
 }
 
 #main-title {
-  font-size: 60px;
+  font-size: 18px;
   text-align: center;
 }
 
-#main-description {
-  font-size: 24px;
+.main-img > img {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.main-description {
+  font-size: 22px;
   text-align: center;
   width: 80%;
   max-width: 700px;
@@ -32,40 +41,9 @@ body {
 #experience-title {
   font-size: 32px;
   margin-left: 10%;
-
 }
 
-.experience-obj-container {
-  display: flex;
-  flex-direction: column;
-  width:100%;
-  max-width: 700px;
-  margin: 100px auto;
-  overflow: auto;
-}
-
-.experience-obj-image {
-
-}
-
-.experience-obj {
-}
-
-.company {
-  font-size: 24px;
-
-}
-
-.position {
-  font-size: 24px;
-
-}
-
-.wattpad {
-  background-color: rgb(254, 80, 9);
-}
-
-.wattpad-image {
-  width: 300px;
-  height: auto;
+/* Resusable */
+.upperspace {
+  margin-top: 30px;
 }
