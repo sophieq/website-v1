@@ -1,19 +1,9 @@
-
-body {
-	height: 100%;
-	margin: 0;
-  padding: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif !important;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
   width:100%;
   max-width: 1000px;
-  margin: 200px auto 0 auto;
+  margin: 150px auto 75px auto;
 }
 
 #main-title {
@@ -30,7 +20,7 @@ body {
 }
 
 .main-description {
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   width: 80%;
   max-width: 700px;
@@ -41,9 +31,4 @@ body {
 #experience-title {
   font-size: 32px;
   margin-left: 10%;
-}
-
-/* Resusable */
-.upperspace {
-  margin-top: 30px;
 }

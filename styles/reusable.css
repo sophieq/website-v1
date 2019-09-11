@@ -1,0 +1,28 @@
+body {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #F5EBDE !important;
+}
+
+.red {
+    color: #EB625F;
+}
+
+.upperspace {
+    margin-top: 30px;
+}
+
+/* navigation bar */
+.icon-bar {
+    background-color: #EB625F;
+    width: 75px;
+    height: auto;
+}
+
+.navbar-header {
+    padding: 10px auto auto 20px;
+}
