@@ -12,6 +12,10 @@ body {
     color: #EB625F;
 }
 
+.green {
+    color: #569578;
+}
+
 .upperspace {
     margin-top: 30px;
 }
@@ -21,6 +25,10 @@ body {
     background-color: #EB625F;
     width: 75px;
     height: auto;
+}
+
+.navbar {
+    background-color: #F5EBDE;
 }
 
 .navbar-header {
