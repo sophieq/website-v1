@@ -6,7 +6,7 @@
   margin: 150px auto 75px auto;
 }
 
-.main-title {
+#main-title {
   font-size: 18px;
   text-align: center;
 }
@@ -31,26 +31,4 @@
 #experience-title {
   font-size: 32px;
   margin-left: 10%;
-}
-
-#overlay {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.75); 
-  z-index: 100; 
-  cursor: pointer; 
-}
-
-#text {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  font-size: 24px;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
 }
